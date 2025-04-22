@@ -1,21 +1,22 @@
 
 robot ={ 
- "opravář":"R2D2", 
+ "R2D2":"opravář", 
 }
-for robot in robot.items
-klíčovéSlovo = input("Jaké je jméno robota?"):
-if klíčovéSlovo in robot:
-    print(f"opravář")
+hodnota = input("opravář") 
+klíč = input("Jaké je jméno robota?"):
+if klíč in robot:
+     print(f"{hodnota}, {robot[hodnota]}")  
 else:
-    Odpověď =("Chcete přidat nového robota?")
+    Odpověď = input(" Robot není v seznamu chcete ho přidat do seznamu, jakožto nového robota?")
 
-if hodnota in robotiOdpověď == "ano":
-    klíčovéSlovo = input("Zadejte název robota")
+if Odpověď == "ano":
+    klíč = input("Zadejte název robota")
 
-for robot in robot.items: 
+for klíč in robot.items: 
     print(robot)    
 
-    while
+ while True:
+    klíčové_slovo = input( napište 'konec' pokavaď už nechcete přidávat robota či odpovídat na otázku ohledně jeho jména):
    
 
 
